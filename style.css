@@ -1,0 +1,10 @@
+div p:nth-child(1) {
+    background-color: yellow;
+    color: red
+}
+
+
+div p:not(:nth-child(1)) {
+    background-color: aqua;
+    color: blue
+}
